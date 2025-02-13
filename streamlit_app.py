@@ -44,7 +44,7 @@ else:
 
         # Generate an answer using the OpenAI API.
         stream = client.chat.completions.create(
-            model="o3-mini",
+            model="o1-mini",
             messages=messages,
             stream=True,
         )
